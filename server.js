@@ -11,7 +11,7 @@ app.get('/', function(req, res) {
   res.send('Hello World')
 })
 
-var connectionString='mongodb+srv://gloria:05291984@cluster0.9h1n9.mongodb.net/users?retryWrites=true&w=majority';
+var connectionString='mongodb+srv://gloria:XXXXXXXX@cluster0.9h1n9.mongodb.net/users?retryWrites=true&w=majority';
 //var connectionString="mongodb://localhost:3000/"
 const MongoClient = require('mongodb').MongoClient
 MongoClient.connect(connectionString, (err, db) => {
