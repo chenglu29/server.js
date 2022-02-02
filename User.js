@@ -6,7 +6,7 @@ const ejs=require("ejs");
 app.set('view engine','ejs');
 
 
-mongoose.connect('mongodb+srv://gloria:05291984@cluster0.9h1n9.mongodb.net/users?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://gloria:XXXXXXXX@cluster0.9h1n9.mongodb.net/users?retryWrites=true&w=majority');
 
 const addressSchema={
 	name:String,
